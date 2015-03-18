@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Project Lesson 3</title>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="framework/css/bootstrap.min.css">
+        <link rel="stylesheet" href="framework/css/style.css">
+        <script src="framework/js/jquery-1.11.2.js"></script>
+        <script src="framework/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-5">
+                    <img class="image_logo img-responsive" src="images/Portfolio_Logo.jpg" alt="logo">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-7 text-right text-uppercase">
+                    <h1 class="name">Brian Grimm</h1>
+                    <h3 class="nickname">Front-end Ninja </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="http://lorempixel.com/1140/350/nature" class="image_main img-responsive" alt="main image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="featured">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="thumbnail" data-toggle="modal" data-target="#P2">
+                            <div class="caption">
+                                <img class="image_thumbnail img-responsive" src="http://lorempixel.com/550/300/nature" alt="Interactive Resume Image">
+                                <h3 class="thumbnail_title text-uppercase">Interactive Resume</h3>
+                            </div>
+                            <p><a href="http://github.com">Link to project</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="thumbnail">
+                            <div class="caption" data-toggle="modal" data-target="#P3">
+                                <img class="image_thumbnail img-responsive" src="http://lorempixel.com/550/300/nature" alt="Classic Arcade Game Clone Image">
+                                <h3 class="thumbnail_title text-uppercase">Classic Arcade Game Clone</h3>
+                            </div>
+                            <p><a href="http://github.com">Link to project</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="thumbnail" data-toggle="modal" data-target="#P5">
+                            <div class="caption">
+                                <img class="image_thumbnail img-responsive" src="http://lorempixel.com/550/300/nature" alt="Neighborhood Map Project Image">
+                                <h3 class="thumbnail_title text-uppercase">Neighborhood Map Project</h3>
+                            </div>
+                            <p><a href="http://github.com">Link to project</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="P2" tabindex="-1" role="dialog" aria-labelledby="ResumeModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title thumbnail_title" id="ResumeModalLabel">Interactive Resume</h4>
+              </div>
+              <div class="modal-body">
+                <img class="image_thumbnail img-responsive" src="http://lorempixel.com/550/300/nature" alt="Interactive Resume Image">
+                    <p class="text_modal">
+                        In this project you will write the JavaScript that powers your own interactive resume.
+                    </p>
+                    <p class="text_modal">
+                        This project is meant to be completed while taking the JavaScript Basics course. Throughout the course you'll build your resume by writing a JS script that will combine your personal information with pre-written HTML and CSS templates to generate your resume.
+                    </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="P3" tabindex="-1" role="dialog" aria-labelledby="ArchadeGameModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title thumbnail_title" id="ArchadeGameModalLabel">Classic Arcade Game Clone</h4>
+              </div>
+              <div class="modal-body">
+                <img class="image_thumbnail img-responsive" src="http://lorempixel.com/550/300/nature" alt="Classic Archade Game Clone Image">
+                    <p class="text_modal">
+                        You will be provided visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
+                    </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="P5" tabindex="-1" role="dialog" aria-labelledby="MapModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title thumbnail_title" id="MapModalLabel">Neighborhood Map Project</h4>
+              </div>
+              <div class="modal-body">
+                <img class="image_thumbnail img-responsive" src="http://lorempixel.com/550/300/nature" alt="Neighborhood Map Project Image">
+                    <p class="text_modal">
+                        You will develop a single page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this map including highlighted locations, third-party data about those locations and various ways to browse the content.
+                    </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

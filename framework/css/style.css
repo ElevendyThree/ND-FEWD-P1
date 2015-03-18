@@ -1,0 +1,68 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+hr {
+	border: 0;
+	height: .25em;
+	background-color: #bcbbbb;
+}
+
+.name {
+	font-size: 4em;
+}
+
+.nickname {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+.featured {
+	font-size: 2.5em;
+	font-weight: 400;
+	color: #bcbbbb
+}
+
+.text_modal {
+	font-size: 1.5em;
+	color: #747704;
+	padding: .5em;
+}
+
+.image_logo {
+	vertical-align: middle;
+	padding-top: 2em;
+}
+
+.image_main {
+	border-radius: .5em;
+}
+
+.thumbnail_title {
+	font-size: 2em;
+	color: #747704;
+}
+
+.thumbnail {
+	border-radius: .5em;
+	padding: 1em;
+}
+
+.image_thumbnail {
+	border-radius: .5em;
+	min-width: 100%;
+	min-height: 100%;
+}
