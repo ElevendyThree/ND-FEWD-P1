@@ -5,10 +5,16 @@
 	box-sizing: border-box;
 }
 
+img, embed, object, video {
+	max-width: 100%;
+}
+
 body {
-	font-family: 'Lato', sans-serif;
-	color: #747704;
+	font-family: 'Asap', sans-serif;
+	background-color: #484848;
+	color: #9DFF7D;
 	font-weight: 300;
+	min-width: 200px;
 }
 
 p {
@@ -22,12 +28,14 @@ hr {
 }
 
 .name {
-	font-size: 4em;
+	font-size: 3.6em;
+	margin-bottom: 0.15em;
 }
 
 .nickname {
-	font-size: 1.4em;
+	font-size: 2.0em;
 	font-weight: 400;
+	margin-top: 0.25em;
 }
 
 .featured {
@@ -36,15 +44,12 @@ hr {
 	color: #bcbbbb
 }
 
-.text_modal {
-	font-size: 1.5em;
-	color: #747704;
-	padding: .5em;
-}
-
 .image_logo {
 	vertical-align: middle;
-	padding-top: 2em;
+	padding-top: 0.3em;
+	font-size: 6em;
+	color: #171717;
+	text-shadow: 0px 2px 3px #666;
 }
 
 .image_main {
@@ -53,7 +58,7 @@ hr {
 
 .thumbnail_title {
 	font-size: 2em;
-	color: #747704;
+	color: #bcbbbb;
 }
 
 .thumbnail {
@@ -64,5 +69,32 @@ hr {
 .image_thumbnail {
 	border-radius: .5em;
 	min-width: 100%;
-	min-height: 100%;
+}
+
+.text_modal {
+	font-size: 1.25em;
+	color: #747704;
+	padding: .5em;
+}
+
+.modal-title {
+	font-size: 1.5em;
+	color: #171717;
+}
+
+a {
+	font-size: 0.75em;
+	color: #bcbbbb;
+	}
+
+a:active {
+	color: #FFFFFF;
+	}
+
+a:hover{
+	color: #FFFFFF;
+}
+
+.btn-default {
+	color: #171717;
 }

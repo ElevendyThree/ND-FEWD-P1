@@ -1,0 +1,36 @@
+.image_main {
+	display: none;
+}
+
+hr {
+	height: .15em;
+	margin-bottom: 0em;
+}
+
+.image_logo {
+	padding-top: 0.3em;
+	font-size: 5.25em;
+}
+
+.name {
+	font-size: 2.1em;
+}
+
+.nickname {
+	margin-top: 0.1em;
+	font-size: 1.5em;
+}
+
+.featured {
+	font-size: 1.75em;
+}
+
+.thumbnail_title {
+	font-size: 1.25em;
+
+}
+
+.text_modal {
+	font-size: 1.25em;
+	padding: .5em;
+}
